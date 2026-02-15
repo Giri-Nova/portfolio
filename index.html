@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giri Manigandan - Full Stack Developer & AI Enthusiast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body class="text-gray-100">
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full bg-black/80 backdrop-blur-md z-50 border-b border-gray-800">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold gradient-text">GM</div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="nav-link hover:text-purple-400">Home</a>
+                    <a href="#about" class="nav-link hover:text-purple-400">About</a>
+                    <a href="#skills" class="nav-link hover:text-purple-400">Skills</a>
+                    <a href="#projects" class="nav-link hover:text-purple-400">Projects</a>
+                    <a href="#startup" class="nav-link hover:text-purple-400">Ideas Proposed</a>
+                    <a href="#education" class="nav-link hover:text-purple-400">Education</a>
+                    <a href="#contact" class="nav-link hover:text-purple-400">Contact</a>
+                </div>
+                <button id="mobileMenuBtn" class="md:hidden text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="hidden md:hidden bg-black/95 backdrop-blur-md">
+            <div class="px-6 py-4 space-y-3">
+                <a href="#home" class="block hover:text-purple-400">Home</a>
+                <a href="#about" class="block hover:text-purple-400">About</a>
+                <a href="#skills" class="block hover:text-purple-400">Skills</a>
+                <a href="#projects" class="block hover:text-purple-400">Projects</a>
+                <a href="#startup" class="block hover:text-purple-400">Startup</a>
+                <a href="#education" class="block hover:text-purple-400">Education</a>
+                <a href="#contact" class="block hover:text-purple-400">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center px-6 pt-20">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <h1 class="text-5xl md:text-7xl font-bold">
+                        Hi, I'm <span class="gradient-text">Giri M</span>
+                    </h1>
+                    <div class="text-2xl md:text-3xl text-gray-300 h-10">
+                                <span id="typewriter" class="typing-effect"></span>
+                    </div>
+
+                    <p class="text-lg text-gray-400">
+                        Computer Science Engineer | Python Full Stack Developer | AI Enthusiast | Idea Proposer
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#contact" class="px-8 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
+                            Get In Touch
+                        </a>
+                        <a href="#projects" class="px-8 py-3 border border-purple-500 rounded-full hover:bg-purple-500/20 transition-all duration-300">
+                            View Projects
+                        </a>
+                    </div>
+                    <div class="flex space-x-4 pt-4">
+                        <a href="https://github.com/Giri-Nova/" class="text-2xl hover:text-purple-400 transition-colors"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/girimanigandan03" class="text-2xl hover:text-purple-400 transition-colors"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/fr.giri?igsh=MWNqcWN0Y3MxaWFoMA==" class="text-2xl hover:text-purple-400 transition-colors"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="relative floating">
+                    <div class="w-80 h-80 mx-auto relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-full opacity-20 blur-3xl"></div>
+                        <div class="relative flex items-center justify-center h-full">
+                            <div class="text-8xl gradient-text">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">
+                <span class="gradient-text">About Me</span>
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="card-hover bg-gray-900/50 rounded-2xl p-8">
+                    <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                        I'm a passionate Computer Science and Engineering student from Madurai, India, with a strong drive to build innovative tech solutions. My journey in technology began with curiosity and has evolved into a mission to create impactful applications that solve real-world problems.
+                    </p>
+                    <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                        As a Python Full Stack Developer and Java specialist, I love architecting scalable systems and exploring the frontiers of AI and autonomous systems. My entrepreneurial spirit led me to found "Skyport AgroMarine" - a startup focused on revolutionizing logistics through solar-powered autonomous drones.
+                    </p>
+                    <div class="grid md:grid-cols-3 gap-6 mt-8">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold gradient-text">15+</div>
+                            <div class="text-gray-400">Projects Completed</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold gradient-text">5+</div>
+                            <div class="text-gray-400">Certifications</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold gradient-text">2</div>
+                            <div class="text-gray-400">Ideas Proposed</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 px-6 bg-gray-900/30">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">
+                <span class="gradient-text">Technical Skills</span>
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fab fa-python text-3xl text-blue-400 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Python Full Stack</h3>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>Django</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar" style="width: 90%"></div>
+                    </div>
+                </div>
+                
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fab fa-java text-3xl text-red-400 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Java Development</h3>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>OOP & Backend</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-database text-3xl text-green-400 mr-3"></i>
+                        <h3 class="text-xl font-semibold">MongoDB</h3>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>Database Design</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fab fa-html5 text-3xl text-orange-400 mr-3"></i>
+                        <h3 class="text-xl font-semibold">Frontend</h3>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>HTML/CSS/JS</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar" style="width: 85%"></div>
+                    </div>
+                </div>
+                
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-robot text-3xl text-purple-400 mr-3"></i>
+                        <h3 class="text-xl font-semibold">AI & ML</h3>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>AI Agents & Basics</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-paint-brush text-3xl text-pink-400 mr-3"></i>
+                        <h3 class="text-xl font-semibold">UI/UX Design</h3>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm">
+                            <span>Design Principles</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">
+                <span class="gradient-text">Featured Projects</span>
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="project-card rounded-xl p-6 card-hover">
+                    <div class="text-3xl mb-4 text-purple-400">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Management Systems</h3>
+                    <p class="text-gray-400 mb-4">Java-based Management Systems with various functionalities for different use cases.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-purple-500/20 rounded-full text-xs">Java</span>
+                        <span class="px-3 py-1 bg-purple-500/20 rounded-full text-xs">MongoDB</span>
+                        <span class="px-3 py-1 bg-purple-500/20 rounded-full text-xs">OOP</span>
+                    </div>
+                </div>
+                
+                <div class="project-card rounded-xl p-6 card-hover">
+                    <div class="text-3xl mb-4 text-blue-400">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Weather Dashboard</h3>
+                    <p class="text-gray-400 mb-4">Displays the accurate weather condition of various cities accross many countries.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-blue-500/20 rounded-full text-xs">HTML5</span>
+                        <span class="px-3 py-1 bg-blue-500/20 rounded-full text-xs">CSS3</span>
+                        <span class="px-3 py-1 bg-blue-500/20 rounded-full text-xs">API Integration</span>
+                        <span class="px-3 py-1 bg-blue-500/20 rounded-full text-xs">JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="project-card rounded-xl p-6 card-hover">
+                    <div class="text-3xl mb-4 text-green-400">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">NOVA - The AI Assistant</h3>
+                    <p class="text-gray-400 mb-4">Real-time messaging application that allows you to chat with an AI assistant NOVA.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-green-500/20 rounded-full text-xs">HTML5</span>
+                        <span class="px-3 py-1 bg-green-500/20 rounded-full text-xs">CSS3</span>
+                        <span class="px-3 py-1 bg-green-500/20 rounded-full text-xs">JavaScript</span>
+                        <span class="px-3 py-1 bg-green-500/20 rounded-full text-xs">API Integration</span>
+                        <span class="px-3 py-1 bg-green-500/20 rounded-full text-xs">MongoDB</span>
+                    </div>
+                </div>
+                
+                <div class="project-card rounded-xl p-6 card-hover">
+                    <div class="text-3xl mb-4 text-orange-400"> 
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Student Management System</h3>
+                    <p class="text-gray-400 mb-4">Comprehensive system for managing student records, grades, and academic performance.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-orange-500/20 rounded-full text-xs">Python</span>
+                        <span class="px-3 py-1 bg-orange-500/20 rounded-full text-xs">Django</span>
+                        <span class="px-3 py-1 bg-orange-500/20 rounded-full text-xs">SQL</span>
+                    </div>
+                </div>
+                
+                <div class="project-card rounded-xl p-6 card-hover">
+                    <div class="text-3xl mb-4 text-pink-400">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Frontend Showcase</h3>
+                    <p class="text-gray-400 mb-4">Modern, responsive websites showcasing advanced CSS animations and JavaScript interactions.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-pink-500/20 rounded-full text-xs">HTML5</span>
+                        <span class="px-3 py-1 bg-pink-500/20 rounded-full text-xs">CSS3</span>
+                        <span class="px-3 py-1 bg-pink-500/20 rounded-full text-xs">JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="project-card rounded-xl p-6 card-hover">
+                    <div class="text-3xl mb-4 text-indigo-400">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">AI Agent System</h3>
+                    <p class="text-gray-400 mb-4">Autonomous AI agents for task automation and decision-making with machine learning integration.</p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="px-3 py-1 bg-indigo-500/20 rounded-full text-xs">Python</span>
+                        <span class="px-3 py-1 bg-indigo-500/20 rounded-full text-xs">TensorFlow</span>
+                        <span class="px-3 py-1 bg-indigo-500/20 rounded-full text-xs">AI/ML</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Startup Section -->
+    <section id="startup" class="py-20 px-6 bg-gray-900/30">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">
+                <span class="gradient-text">Skyport AgroMarine</span>
+            </h2>
+            <div class="max-w-5xl mx-auto">
+                <div class="startup-card rounded-2xl p-8 border border-purple-500/30">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h3 class="text-2xl font-semibold mb-4">Revolutionizing Logistics with Autonomous Drones</h3>
+                            <p class="text-gray-300 mb-6">
+                                Skyport AgroMarine is pioneering the future of autonomous logistics through solar-powered drone technology. Our mission is to bridge the gap between remote production areas and urban markets.
+                            </p>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <i class="fas fa-fish text-blue-400 mt-1 mr-3"></i>
+                                    <div>
+                                        <h4 class="font-semibold mb-1">Marine Logistics</h4>
+                                        <p class="text-gray-400 text-sm">Transporting fish from mid-sea boats to shore efficiently</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-seedling text-green-400 mt-1 mr-3"></i>
+                                    <div>
+                                        <h4 class="font-semibold mb-1">Agricultural Transport</h4>
+                                        <p class="text-gray-400 text-sm">Moving produce from hilly regions to urban markets</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-solar-panel text-yellow-400 mt-1 mr-3"></i>
+                                    <div>
+                                        <h4 class="font-semibold mb-1">Sustainable Technology</h4>
+                                        <p class="text-gray-400 text-sm">Solar-powered autonomous navigation with IoT integration</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <div class="bg-gradient-to-br from-purple-600/20 to-blue-600/20 rounded-xl p-6 border border-purple-500/30">
+                                <div class="text-center">
+                                    <div class="text-6xl mb-4 pulse">
+                                        <i class="fas fa-drone"></i>
+                                    </div>
+                                    <h4 class="text-xl font-semibold mb-2">Technology Stack</h4>
+                                    <div class="tech-grid text-sm">
+                                        <div class="bg-gray-800/50 rounded-lg p-2 text-center">
+                                            <i class="fas fa-microchip text-blue-400"></i>
+                                            <div>IoT</div>
+                                        </div>
+                                        <div class="bg-gray-800/50 rounded-lg p-2 text-center">
+                                            <i class="fas fa-robot text-purple-400"></i>
+                                            <div>AI/ML</div>
+                                        </div>
+                                        <div class="bg-gray-800/50 rounded-lg p-2 text-center">
+                                            <i class="fas fa-satellite text-green-400"></i>
+                                            <div>GPS</div>
+                                        </div>
+                                        <div class="bg-gray-800/50 rounded-lg p-2 text-center">
+                                            <i class="fas fa-sun text-yellow-400"></i>
+                                            <div>Solar</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="startup" class="py-20 px-6 bg-gray-900/30">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">
+                <span class="gradient-text">Disaster Management Drone</span>
+            </h2>
+            <div class="max-w-5xl mx-auto">
+                <div class="startup-card rounded-2xl p-8 border border-purple-500/30">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h3 class="text-2xl font-semibold mb-4">Disaster Management and Rescue Operations with Autonomous Drones</h3>
+                            <p class="text-gray-300 mb-6">
+                                The disaster management drone is designed in such a way that it can actually deliver essential medicines, food and other communicational devices.
+                                The range of the drone is increased by Lo-Ra modules. 
+                            </p>
+                            <div class="space-y-4">
+                                <div class="flex items-start">
+                                    <i class="fas fa-pills text-blue-400 mt-1 mr-3"></i>
+                                    <div>
+                                        <h4 class="font-semibold mb-1">Medicines</h4>
+                                        <p class="text-gray-400 text-sm">Transports medicine during disaster prone areas efficiently</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-satellite text-green-400 mt-1 mr-3"></i>
+                                    <div>
+                                        <h4 class="font-semibold mb-1">Communication</h4>
+                                        <p class="text-gray-400 text-sm">Delivers including communication devices via airway</p>
+                                    </div>
+                                </div>
+                                <div class="flex items-start">
+                                    <i class="fas fa-solar-panel text-yellow-400 mt-1 mr-3"></i>
+                                    <div>
+                                        <h4 class="font-semibold mb-1">Sustainable Technology</h4>
+                                        <p class="text-gray-400 text-sm">Solar-powered autonomous navigation with IoT integration</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <div class="bg-gradient-to-br from-purple-600/20 to-blue-600/20 rounded-xl p-6 border border-purple-500/30">
+                                <div class="text-center">
+                                    <div class="text-6xl mb-4 pulse">
+                                        <i class="fas fa-drone"></i>
+                                    </div>
+                                    <h4 class="text-xl font-semibold mb-2">Technology Stack</h4>
+                                    <div class="tech-grid text-sm">
+                                        <div class="bg-gray-800/50 rounded-lg p-2 text-center">
+                                            <i class="fas fa-microchip text-blue-400"></i>
+                                            <div>IoT</div>
+                                        </div>
+                                        <div class="bg-gray-800/50 rounded-lg p-2 text-center">
+                                            <i class="fas fa-robot text-purple-400"></i>
+                                            <div>AI/ML</div>
+                                        </div>
+                                        <div class="bg-gray-800/50 rounded-lg p-2 text-center">
+                                            <i class="fas fa-satellite text-green-400"></i>
+                                            <div>GPS</div>
+                                        </div>
+                                        <div class="bg-gray-800/50 rounded-lg p-2 text-center">
+                                            <i class="fas fa-sun text-yellow-400"></i>
+                                            <div>Solar</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Education Section -->
+    <section id="education" class="py-20 px-6">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">
+                <span class="gradient-text">Education & Certifications</span>
+            </h2>
+            <div class="max-w-4xl mx-auto space-y-6">
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-start">
+                        <div class="text-3xl text-purple-400 mr-4">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold mb-2">B.E. Computer Science and Engineering</h3>
+                            <p class="text-gray-400 mb-2">Madurai,TamilNadu, India</p>
+                            <p class="text-sm text-gray-500">Current Student | Graduation: 2028</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-start">
+                        <div class="text-3xl text-blue-400 mr-4">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold mb-2">Python Full Stack Development Certification</h3>
+                            <p class="text-gray-400 mb-2">From Infinite Computer Education </p>
+                            <p class="text-sm text-gray-500">Completed: October 2024</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-start">
+                        <div class="text-3xl text-green-400 mr-4">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold mb-2">AI & Machine Learning Certifications</h3>
+                            <p class="text-gray-400 mb-2">Multiple Specializations</p>
+                            <p class="text-sm text-gray-500">2024-2026</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                    <div class="flex items-start">
+                        <div class="text-3xl text-pink-400 mr-4">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div class="flex-1">
+                            <h3 class="text-xl font-semibold mb-2">UI/UX Design Certification</h3>
+                            <p class="text-gray-400 mb-2">Design Thinking & User Experience</p>
+                            <p class="text-sm text-gray-500">2025</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6 bg-gray-900/30">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12">
+                <span class="gradient-text">Let's Connect</span>
+            </h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-6">
+                        <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                            <h3 class="text-xl font-semibold mb-4">Get In Touch</h3>
+                            <p class="text-gray-400 mb-6">
+                                I'm always interested in hearing about new opportunities, collaborations, or exciting projects. Whether you're a recruiter, fellow developer, or potential startup collaborator, let's talk!
+                            </p>
+                            <div class="space-y-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-envelope text-purple-400 mr-3"></i>
+                                    <span>girimanigandanofficial@gmail.com</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-phone text-purple-400 mr-3"></i>
+                                    <span>+91 6379807489</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-map-marker-alt text-purple-400 mr-3"></i>
+                                    <span>Madurai, India</span>
+                                </div>
+                            </div>
+                            <br>
+                            <a href="Resume_Giri_2026.pdf" class="px-8 py-3 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-full hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
+                            View Resume
+                        </a>
+                        </div>
+                        
+                    </div>
+                    <div class="card-hover bg-gray-900/50 rounded-xl p-6">
+                        <form id="contactForm" class="space-y-4">
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Name</label>
+                                <input type="text" class="w-full px-4 py-2 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Email</label>
+                                <input type="email" class="w-full px-4 py-2 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="your@email.com">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium mb-2">Message</label>
+                                <textarea rows="4" class="w-full px-4 py-2 bg-gray-800 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Your message..."></textarea>
+                            </div>
+                            <button type="submit" class="w-full py-3 bg-gradient-to-r from-purple-600 to-indigo-600 rounded-lg hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-6 border-t border-gray-800">
+        <div class="container mx-auto text-center">
+            <p class="text-gray-400">© 2026 Giri Manigandan. All rights reserved.</p>
+            <div class="flex justify-center space-x-6 mt-4">
+                <a href="https://github.com/Giri-Nova/" class="text-gray-400 hover:text-purple-400 transition-colors">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/girimanigandan03" class="text-gray-400 hover:text-purple-400 transition-colors">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+                <a href="https://www.instagram.com/fr.giri?igsh=MWNqcWN0Y3MxaWFoMA==" class="text-gray-400 hover:text-purple-400 transition-colors">
+                    <i class="fab fa-instagram text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="portfolio.js"></script>
+</body>
+</html>
